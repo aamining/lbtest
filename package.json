@@ -37,7 +37,6 @@
     "rebuild": "npm run clean && npm run build",
     "postinstall": "npm run build",
     "start:prod": "node dist/index.js"
-
   },
   "repository": {
     "type": "git",
@@ -52,6 +51,8 @@
     "!*/__tests__"
   ],
   "dependencies": {
+    "@loopback/authentication": "^9.0.6",
+    "@loopback/authentication-jwt": "^0.12.6",
     "@loopback/boot": "^5.0.5",
     "@loopback/core": "^4.0.5",
     "@loopback/repository": "^5.1.0",
