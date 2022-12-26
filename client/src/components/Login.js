@@ -39,7 +39,7 @@ class Login extends Component{
             document.cookie= token;
 
             //redirect user to other page
-            document.location.assign('http://localhost:3000/comments')
+            //document.location.assign('http://localhost:3000/comments')
             //document.location.assign('https://commentsforali.herokuapp.com/comments')
             console.log(token)
           })
