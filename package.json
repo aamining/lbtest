@@ -32,16 +32,11 @@
     "preopenapi-spec": "npm run build",
     "openapi-spec": "node ./dist/openapi-spec",
     "prestart": "npm run rebuild",
-
     "clean": "lb-clean dist *.tsbuildinfo .eslintcache",
     "rebuild": "npm run clean && npm run build",
     "postinstall": "npm run build",
-
-
     "start:prod": "concurrently \"node dist/index.js\" \"npm run client\"",
-
     "client": "npm start --prefix client",
-
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client "
   },
   "repository": {
