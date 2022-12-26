@@ -17,7 +17,7 @@ class Login extends Component{
 
           method:'post',
           //in development:
-          url:'https://lbtets.herokuapp.com/users/login',
+          url:'http://localhost:7000/users/login',
 
           //in production:
           //url:'https://commentsforali.herokuapp.com/users/login',
