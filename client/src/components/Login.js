@@ -45,7 +45,7 @@ class Login extends Component{
             //redirect user to other page
             //document.location.assign('http://localhost:3000/comments')
             //document.location.assign('https://commentsforali.herokuapp.com/comments')
-            console.log("hello from login response:",token)
+            console.log("hello from login response:",response)
           })
 
 
