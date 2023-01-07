@@ -18,7 +18,7 @@ class Login extends Component{
           method:'post',
           //in development:
           url:'https://lbtest.herokuapp.com/users/login',
-          headers: {"Access-Control-Allow-Origin": `https://lbtest.herokuapp.com/user/login`},
+          headers: {"Access-Control-Allow-Origin": `https://lbtest.herokuapp.com`},
           headers: {"Access-Control-Request-Method": `POST,GET`},
           headers: {"Access-Control-Allow-Credentials": `true`},
           //add teo headers"
