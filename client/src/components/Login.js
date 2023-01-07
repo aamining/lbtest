@@ -18,7 +18,7 @@ class Login extends Component{
           method:'post',
           //in development:
           url:'https://lbtets.herokuapp.com/api/users/login',
-          headers: {"Access-Control-Allow-Origin": "*"},
+          headers: {"Access-Control-Allow-Origin": "https://lbtets.herokuapp.com/api"},
 
           //add teo headers"
 
