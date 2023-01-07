@@ -18,6 +18,7 @@ class Login extends Component{
           method:'post',
           //in development:
           url:'http://localhost:7000/users/login',
+          headers: {"Access-Control-Allow-Origin": `https://lbtest.herokuapp.com/users/login`},
 
           //in production:
           //url:'https://commentsforali.herokuapp.com/users/login',
