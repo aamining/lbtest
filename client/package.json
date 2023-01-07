@@ -39,6 +39,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://lbtets.herokuapp.com/api"
+  "proxy": "http://localhost:7000/api"
 
 }
