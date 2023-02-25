@@ -17,8 +17,8 @@ class Login extends Component{
 
           method:'post',
           //in development:
-          url:'https://lbtets.herokuapp.com/api/users/login',
-          headers: {"Access-Control-Allow-Origin": "https://lbtets.herokuapp.com"},
+          url:'http://localhost:7000/users/login',
+          headers: {"Access-Control-Allow-Origin": "http://localhost:7000/users/login"},
           headers: {"Access-Control-Request-Method": "POST,GET"},
           headers: {"Access-Control-Allow-Credentials": "true"},
 
@@ -43,7 +43,7 @@ class Login extends Component{
             document.cookie= token;
 
             //redirect user to other page
-            //document.location.assign('http://localhost:3000/comments')
+            document.location.assign('http://localhost:3000/comments')
             //document.location.assign('https://commentsforali.herokuapp.com/comments')
             console.log("hello from login response:",response)
           })
